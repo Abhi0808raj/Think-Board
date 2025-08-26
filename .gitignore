@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+tmp/
+temp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# React specific
+*.map
+*.eslintcache
+
+# MongoDB (if you dump locally)
+dump/
+
+# Misc
+*.tgz
