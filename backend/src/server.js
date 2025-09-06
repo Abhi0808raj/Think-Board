@@ -24,6 +24,6 @@ app.use("/api/notes", notesRoutes);
 connectDB().then(() => {
 
 app.listen(PORT, ()=>{
-    console.log("Server Started on PORT:",5001);
+    console.log("Server Started on PORT:",PORT);
 });
 });
